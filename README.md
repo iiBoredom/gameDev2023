@@ -1,2 +1,2 @@
 # gameDev2023
-Learing javascript
+Learning javascript
