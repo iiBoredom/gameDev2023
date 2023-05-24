@@ -53,6 +53,12 @@ function myCheckHit(){
       document.getElementById('myImg01').style.left = '20px'
       location = 'https://iiboredom.github.io/gameDev2023/public/t4a04-mazeLVL02.html'
    }
+   
+    if ( myHitOther('myImg01','myImg05') ){
+       alert('You found the secret! Now go to the next level')
+      document.getElementById('myImg01').style.left = '20px'
+      location = 'https://iiboredom.github.io/gameDev2023/public/t4a04-mazeLVL02.html'
+   }
 
    // more if statements here
 
@@ -102,6 +108,6 @@ function myCheckHit(){
 <img id="myImg02" src="myImgNew.jpg"  style="position:absolute; width:10px; height:200px; left:350px; top:90px;">
 <img id="myImg03" src="myImgNew.jpg"  style="position:absolute; width:200px; height:10px; left:500px; top:400px;">
 <img id="myImg04" src="myImgNew.jpg"  style="position:absolute; width:100px; height:80px; left:800px; top:400px;">
-   <img id="myImg04" src="myImgNew.jpg"  style="position:absolute; width:2px; height:2px; left:50px; top:750px;">
+   <img id="myImg05" src="myImgNew.jpg"  style="position:absolute; width:1px; height:1px; left:50px; top:750px;">
 
 
